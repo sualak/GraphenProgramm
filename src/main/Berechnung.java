@@ -132,10 +132,10 @@ public class Berechnung
         }
         else
         {
-            euler.add("Dieser Graph hat keinen Eulerzyklus");
+            euler.add("Dieser Graph hat keinen Euler zyklus");
         }
         System.out.println();
-        System.out.println("Der Euelerzeyklus dieses Graphen ist: ");
+        System.out.println("Der Euler zyklus dieses Graphen ist: ");
         System.out.print(euler);
 
         long ende = System.nanoTime();
